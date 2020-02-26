@@ -41,7 +41,7 @@ function multiplying(liczba1, liczba2) {
       temp += arr[j][i];
     }
     temp += rest;
-    rest = Math.floor(temp / 10)
+    rest = Math.floor(temp / 10);
     temp %= 10;
     newArr.unshift(temp);
   }
